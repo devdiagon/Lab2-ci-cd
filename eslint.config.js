@@ -7,7 +7,10 @@ export default[
     },
     rules: {
       semi: ['error', 'always'],
-      quotes: ['error', 'single']
+      quotes: ['error', 'single'],
+      'no-var': 'error',
+      'eqeqeq': ['error', 'always'],
+      'comma-dangle': ['error', 'never']
     }
   }
 ];
