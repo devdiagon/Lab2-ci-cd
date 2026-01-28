@@ -1,4 +1,6 @@
 export function promedio(numeros) {
+  if(numeros.length === 0) return 0;
+  
   let acumulado = 0;
 
   for(let num of numeros) {
@@ -9,6 +11,8 @@ export function promedio(numeros) {
 }
 
 export function maximo(numeros) {
+  if(numeros.length === 0) return 0;
+  
   let maximo = numeros[0];
   
   for(let num of numeros) {
